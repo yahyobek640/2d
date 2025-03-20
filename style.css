@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5733;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 10px;
+    gap: 400px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.signup-btn {
+    background: rgb(182, 94, 63);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #f8f8f8;
+}
+.hero-text h1 {
+    font-size: 36px;
+    color: #333;
+}
+.hero-text span {
+    color: #ff5733;
+}
+.hero-text p {
+    font-size: 16px;
+    color: #666;
+}
+.explore-btn {
+    background: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.features {
+    text-align: center;
+}
+.features span {
+    color: #ff5733;
+}
+.see-more {
+    background: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.restaurants {
+    padding: 50px;
+    text-align: center;
+}
+.restaurant-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.restaurant {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.download-app {
+    text-align: center;
+    padding: 50px;
+}
+.subscribe-form{
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    width: 1300;
+    text-align: center;
+    background: #FF7A50;
+    color: #fff;
+    padding: 50px;
+}
+.subscribe input {
+    padding: 10px;
+    width: 500px;
+    border-radius: 20px;
+    border: none;
+}
+.subscribe button {
+    background: #fff;
+    color: #993314;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.download-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+}
+
